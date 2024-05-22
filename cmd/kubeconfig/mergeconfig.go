@@ -50,7 +50,7 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	fromConfig, err := readConfigYaml(toKubeconfigDir)
+	fromConfig, err := readConfigYaml(fromKubeconfigDir)
 	if err != nil {
 		return err
 	}

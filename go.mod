@@ -1,4 +1,4 @@
-module github.com/Eikykun/kube-utils
+module github.com/Eikykun/kut
 
 go 1.22.1
 
